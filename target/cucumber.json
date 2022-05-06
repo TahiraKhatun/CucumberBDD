@@ -1,0 +1,104 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-06T16:30:47.313Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3852069100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should be able to sign up with valid email address",
+        "description": "",
+        "id": "talenttek-sign-up-feature-test-suite;user-should-be-able-to-sign-up-with-valid-email-address",
+        "after": [
+          {
+            "result": {
+              "duration": 2038100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.browserClose(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am at TalentTEK home page",
+            "match": {
+              "location": "stepDef.signIn.iAmAtTalentTEKHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@prod"
+          }
+        ]
+      }
+    ],
+    "name": "TalentTEK sign up feature test suite",
+    "description": "",
+    "id": "talenttek-sign-up-feature-test-suite",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/signup/signup.feature",
+    "tags": [
+      {
+        "name": "@signup",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 9
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 21
+        }
+      },
+      {
+        "name": "@prod",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 28
+        }
+      }
+    ]
+  }
+]
