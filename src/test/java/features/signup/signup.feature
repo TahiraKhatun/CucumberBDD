@@ -5,8 +5,8 @@
 Feature: TalentTEK sign up feature test suite
    Scenario: User should be able to sign up with valid email address
     Given I am at TalentTEK home page
-#    And I click on Create New Account button
-#    And I enter student information with valid email address
+    And I click on Create New Account button
+    And I enter student information with valid email address
 #    And  I enter student dob
 #    And I enter student gender as male
 #    And I agree with from

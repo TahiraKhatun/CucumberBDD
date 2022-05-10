@@ -1,5 +1,7 @@
-stepDef\signUp.class
+pageObject\signUp_page.class
+pageObject\signIn_page.class
 stepDef\Hook.class
+base\Config.class
+stepDef\signUp.class
 stepDef\signIn.class
 TestRunner.class
-base\Config.class

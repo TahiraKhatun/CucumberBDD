@@ -3,11 +3,11 @@
     "line": 5,
     "elements": [
       {
-        "start_timestamp": "2022-05-06T16:30:47.313Z",
+        "start_timestamp": "2022-05-10T02:08:04.633Z",
         "before": [
           {
             "result": {
-              "duration": 3852069100,
+              "duration": 2948209700,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 2038100,
+              "duration": 2002400,
               "status": "passed"
             },
             "match": {
@@ -35,6 +35,7 @@
         "steps": [
           {
             "result": {
+              "duration": 22342100,
               "status": "passed"
             },
             "line": 7,
@@ -43,6 +44,30 @@
               "location": "stepDef.signIn.iAmAtTalentTEKHomePage()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 282380600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Create New Account button",
+            "match": {
+              "location": "stepDef.signIn.iClickOnCreateNewAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 610068800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter student information with valid email address",
+            "match": {
+              "location": "stepDef.signUp.iEnterStudentInformationWithValidEmailAddress()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
