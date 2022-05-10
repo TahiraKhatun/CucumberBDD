@@ -3,11 +3,11 @@
     "line": 5,
     "elements": [
       {
-        "start_timestamp": "2022-05-10T02:08:04.633Z",
+        "start_timestamp": "2022-05-10T15:53:02.771Z",
         "before": [
           {
             "result": {
-              "duration": 2948209700,
+              "duration": 3321814700,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 2002400,
+              "duration": 4095000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22342100,
+              "duration": 45470500,
               "status": "passed"
             },
             "line": 7,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 282380600,
+              "duration": 338640100,
               "status": "passed"
             },
             "line": 8,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 610068800,
+              "duration": 953855300,
               "status": "passed"
             },
             "line": 9,
@@ -68,6 +68,66 @@
               "location": "stepDef.signUp.iEnterStudentInformationWithValidEmailAddress()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 387999600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter student dob",
+            "match": {
+              "location": "stepDef.signUp.iEnterStudentDob()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112059700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter student gender as male",
+            "match": {
+              "location": "stepDef.signUp.iEnterStudentGenderAsMale()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70022500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I agree with from",
+            "match": {
+              "location": "stepDef.signUp.iAgreeWithFrom()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69547600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click Create My  Account button",
+            "match": {
+              "location": "stepDef.signUp.iClickCreateMyAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 502000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to get my student id",
+            "match": {
+              "location": "stepDef.signUp.iShouldBeAbleToGetMyStudentId()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
