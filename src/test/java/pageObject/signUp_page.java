@@ -89,14 +89,12 @@ public class signUp_page {
        public void selectRadiobutton(String gender) {
            List<WebElement> radio_label = driver.findElements(By.cssSelector(".radio-inline"));
            for (WebElement e : radio_label) {
+               System.out.println(e.getText());
                if(e.getText().equalsIgnoreCase(gender)){
                    e.findElement(By.tagName("input")).click();
                }
            }
        }
-
-
-
        @FindBy(how = How.CSS,using="input[type='checkbox']")
        public WebElement checkBoxLoc;
 
@@ -110,5 +108,11 @@ public class signUp_page {
                 submitLoc.click();
 
        }
+       @FindBy(how = How.XPATH, using = "//div[@class='alert alert-success']")
+       public WebElement successMass;
 
+      public void verifyMess(){
+         String aa = successMass.getText();
+                 System.out.println( aa);
+      }
      }

@@ -42,5 +42,6 @@ public class signUp extends Config {
 
     @Then("I should be able to get my student id")
     public void iShouldBeAbleToGetMyStudentId() {
+        signUp.verifyMess();
     }
 }

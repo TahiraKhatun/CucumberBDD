@@ -20,9 +20,26 @@ public class signIn_page {
     @FindBy(how = How.LINK_TEXT, using = "Create New Account")
     public WebElement clickCreateNewAccountFromSignInPage;
 
+    @FindBy(how=How.NAME,using ="email")
+    public WebElement enterStudentEmail;
+    @FindBy(how=How.NAME,using ="password")
+    public WebElement enterStudentPassword;
+    @FindBy(how=How.CLASS_NAME,using ="my-login")
+    public WebElement clickLoginButton;
+
 
     public void clickCreateNewAccountButton() {
         clickCreateNewAccountFromSignInPage.click();
     }
 
+    public void enterStudentEmailAddress(String email){
+        enterStudentEmail.sendKeys(email);
+      }
+    public void enterStudentPass(String password) {
+        enterStudentPassword.sendKeys(password);
+
+      }
+    public void clickLogin() {
+        clickLoginButton.click();
+    }
     }

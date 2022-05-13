@@ -3,6 +3,8 @@ package stepDef;
 import base.Config;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.testng.Assert;
 import pageObject.signIn_page;
 
@@ -18,4 +20,20 @@ public class signIn extends Config {
     public void iClickOnCreateNewAccountButton() {
         signIn.clickCreateNewAccountButton();
     }
+
+    @And("I enter student  email address")
+    public void iEnterStudentEmailAddress() {
+        signIn.enterStudentEmailAddress("Tahirakhatun411@gmail.com");
+    }
+
+    @And("I enter student password")
+    public void iEnterStudentPassword() {
+      signIn.enterStudentPass("Rahaman12");
+    }
+
+    @When("I click log in button")
+    public void iClickLogInButton() {
+        signIn.clickLogin();
+    }
+
 }
