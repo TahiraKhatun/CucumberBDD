@@ -1,9 +1,0 @@
-pageObject\signUp_page.class
-pageObject\signIn_page.class
-stepDef\Hook.class
-base\Config.class
-stepDef\profile.class
-pageObject\myProfile_page.class
-stepDef\signUp.class
-stepDef\signIn.class
-TestRunner.class

@@ -12,7 +12,7 @@ public class signUp extends Config {
     public void iEnterStudentInformationWithValidEmailAddress() {
         signUp.enterFirstName("Tahira");
         signUp.enterLastName("Khatun");
-        signUp.enterEmail("Tahirakhatun411@gmail.com");
+        signUp.enterEmail("Tahirakhatun101@gmail.com");
         signUp.enterPass("Rahaman12");
         signUp.enterConfirmPass("Rahaman12");
 
