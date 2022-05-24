@@ -101,10 +101,10 @@ public class signUp_page {
        public void checkBox(){
         checkBoxLoc.click();
       }
-     @FindBy(how = How.XPATH, using = "//button[@type='submit']")
-     public WebElement submitLoc;
+       @FindBy(how = How.XPATH, using = "//button[@type='submit']")
+       public WebElement submitLoc;
 
-     public void submit() {
+       public void submit() {
                 submitLoc.click();
 
        }

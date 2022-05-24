@@ -6,6 +6,6 @@
 # Customize run
        
 
- mvn verify -Denv=qa -Dbrowser=ch -Dcucumber.filter.tags="@signIn"
+ mvn verify -Denv=qa -Dbrowser=ch -Dcucumber.filter.tags="@smoke"
  User should provide us environment type and browser type
  Example env = qa or stag or prod and browser = ch or edge

@@ -23,16 +23,28 @@ public class signIn extends Config {
     @And("I enter student  email address")
     public void iEnterStudentEmailAddress() {
         signIn.enterStudentEmailAddress("Tahirakhatun411@gmail.com");
-    }
 
-    @And("I enter student password")
-    public void iEnterStudentPassword() {
-      signIn.enterStudentPass("Rahaman12");
+    }
+        @And("I enter student password")
+        public void iEnterStudentPassword() {
+            signIn.enterStudentPass("Rahaman12");
+        }
+
+
+    @And("I enter student  email address as {string}")
+    public void iEnterStudentEmailAddressAs(String email)
+    {
+    signIn.enterStudentEmailAddress(email);
+    }
+    @And("I enter student password as {string}")
+    public void iEnterStudentPasswordAs(String password) {
+        signIn.enterStudentPass(password);
     }
 
     @When("I click log in button")
     public void iClickLogInButton() {
         signIn.clickLogin();
     }
+
 
 }
