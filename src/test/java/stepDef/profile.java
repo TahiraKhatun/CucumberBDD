@@ -9,5 +9,6 @@ public class profile extends Config {
     @Then("I should be successfully log in")
     public void iShouldBeSuccessfullyLogIn() {
       profile.verifyMessage();
+        profile.message();
     }
 }
