@@ -46,5 +46,4 @@ public class signIn extends Config {
         signIn.clickLogin();
     }
 
-
 }
