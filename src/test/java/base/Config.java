@@ -10,7 +10,7 @@ public class Config {
 
     public static WebDriver driver;
 
-    public static WebDriver setupDriver(String driverType){
+    public static  WebDriver setupDriver(String driverType){
         if (driverType.equalsIgnoreCase("ch")){
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
